@@ -69,24 +69,8 @@ header {
 .text {
 	transform: translate(-50%,-50%);
 	position: absolute;
-	top: 54%;
-	left: 35%;
-}
-
-.text h1 {
-	color: #fff;
-	font-size: 100px;
-	font-family: 'Raleway', sans-serif;
-}
-
-.text span {
-	width: 4px;
-	height: 20px;
-	background: #fd4a47;
-	transform: translate(-50%,-50%);
-	position: absolute;
-	top: 5%;
-	left: -15%;
+	top: 24%;
+	left: 20%;
 }
 
 .text p {
@@ -94,5 +78,8 @@ header {
 	line-height: 25px;
 	letter-spacing: 2px;
 	color: #fff;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Castoro Titling', cursive;
+
 }
+
+
