@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com//css2?family=Castoro+Titling&family=Quicksand:wght@300&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Montserrat&family=Noto+Sans+Egyptian+Hieroglyphs&family=Quicksand:wght@300&family=Raleway:wght@100&family=Seaweed+Script&family=Sedgwick+Ave+Display&display=swap');
 
 * {
 	padding: 0;
@@ -77,7 +77,7 @@ header {
 .text h1 {
 	color: #fff;
 	font-size: 100px;
-	font-family: 'Castoro Titling', cursive;
+	font-family: 'Sedgwick Ave Display', cursive;
 }
 
 .text span {
