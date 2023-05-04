@@ -2,31 +2,39 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/1.8/css/bootstrap-switch.css">
+	
+	
 	<title>Cotact us</title>
 </head>
 <body>
-	<header>
-		<div id="main">
-			<div class="logo"></div>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="working.html">Portfolio</a></li>
-					<li><a href="contact.html" class="active">Contact us</a></li>
-					<li><a href="faqs.html">Faqs</a></li>
-					<li><a href="projects.html">Projects</a></li>
-				</ul>
-			</nav>
-		</div>
-		<div id="contact">
-			<nav>
-				<ul>
-					<li><a href="https://instagram.com/timo_t_q?igshid=ZDdkNTZiNTM" target="_blank">Instagram</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-
+	<div class="hero">
+		<form action="">
+			<div class="massage-icon">
+				<i class="bi-bi-telegram"></i>
+				<span>Message</span>
+			</div>
+			<div id="input-field">
+				<i class="bi-bi-person"></i>
+				<input type="text" placeholder="Name" name="Name">
+			</div>
+			<div id="input-field">
+				<i class="bi-bi-telephone"></i>
+				<input type="text" placeholder="Phone No" name="Phone">
+			</div>
+			<div id="input-field">
+				<i class="bi-bi-envelope"></i>
+				<input type="text" placeholder="Email Adress" name="Email">
+			</div>
+			<div id="input-field">
+				<i class="bi-bi-chat-right-dots"></i>
+				<textarea name="Message" placeholder="Message" rows="10"></textarea>
+			</div>
+			<input type="submit" value="Submit" class="send-btn" name="">
+		</form>
+	</div>	
 </body>
 </html>
