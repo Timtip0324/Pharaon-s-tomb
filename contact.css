@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Quicksand:wght@300&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Comic+Neue:ital,wght@1,700&family=Montserrat&family=Noto+Sans+Egyptian+Hieroglyphs&family=Quicksand:wght@300&family=Raleway:wght@100&family=Seaweed+Script&family=Sedgwick+Ave+Display&display=swap');
 *{
 	background-color: #060616;
 }
@@ -20,7 +20,7 @@ input {
 	border-radius: 10px;
 	border-color: black;
 	margin-bottom: 20px;
-	font-family: 'Sedgwick Ave Display', cursive;
+	font-family: 'Comic Neue', cursive;
 }
 
 textarea {
@@ -32,7 +32,7 @@ textarea {
     border-radius: 10px;
     border-color: black;
     margin-bottom: 25px;
-    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Comic Neue', cursive;
 }
 
 input: focus-within {
