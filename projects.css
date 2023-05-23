@@ -11,7 +11,7 @@ html,body {
 }
 
 header {
-	background-image: linear-gradient(rgba(42, 58, 74, 0.85), rgba(42, 58, 74, 0.85)), url(picture3.png);
+	background-image: linear-gradient(rgba(42, 58, 74, 0.85), rgba(42, 58, 74, 0.85)), url(picture4.png);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -80,6 +80,14 @@ header {
 	color: #fff;
 	font-family: 'Castoro Titling', cursive;
 
+}
+
+.text a {
+	font-size: 14px;
+	line-height: 25px;
+	letter-spacing: 2px;
+	color: orange;
+	font-family: 'Castoro Titling', cursive;
 }
 
 
