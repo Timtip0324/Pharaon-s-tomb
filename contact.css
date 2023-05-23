@@ -3,9 +3,47 @@
 	background-color: #060616;
 }
 
+header {
+	
+	
+	background-size: cover;
+	background-position: center;
+}
+
+nav ul {
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 8px;
+	line-height: 50px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	padding: 6px 13px;
+	transition: 0.4s all ease-out;
+	font-family: 'Quicksand', sans-serif;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+	background: #fd4a47;
+	color: #fff;
+	transition: 0.4s all ease-out;
+}
+
+
 h1 {
 	color: white;
-	padding-top: 10px;
+	padding-top: 30px;
+    /*padding-left: 750px;*/
 	text-align: center;
 	font-size: 60px;
 	font-family: 'Quicksand', sans-serif;
